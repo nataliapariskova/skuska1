@@ -5,7 +5,7 @@
         <div class="col-md-3"> <a href="https://www.facebook.com/"> <img src="obrazky/fb.png" alt="logo fb"  width="40" height="40/> </a> </div>
         <div class="col-md-3"> <a href="https://www.instagram.com/"><img src="obrazky/instagram.png" alt="logo instagram" width="40" height="40/> </a> </div>
         <div class="col-md-3"> <a href="https://www.twitter.com/"><img src="obrazky/twitter.png" alt="logo twitter" width="40" height="40/> </a> </div>  
-        <div class="col-md-3"> Prerob Obchodné podmienky </div>   
+        <div class="col-md-3"> Obchodné podmienky </div>   
   
        
          
