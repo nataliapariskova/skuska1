@@ -1,0 +1,61 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>skuska1</Name>
+    <ProjectGuid>{90a05697-b500-4944-81a1-c7b5f7e11c9b}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include=".vs\slnx.sqlite" />
+    <Compile Include=".vs\VSWorkspaceState.json" />
+    <Compile Include="obrazky\audi.png" />
+    <Compile Include="obrazky\auta.jpg" />
+    <Compile Include="obrazky\bmw.jpg" />
+    <Compile Include="obrazky\fb.png" />
+    <Compile Include="obrazky\ford.jpg" />
+    <Compile Include="obrazky\instagram.png" />
+    <Compile Include="obrazky\logo.png" />
+    <Compile Include="obrazky\mapa.jpg" />
+    <Compile Include="obrazky\nissan.jpg" />
+    <Compile Include="obrazky\peugeot.png" />
+    <Compile Include="obrazky\seat.jpg" />
+    <Compile Include="obrazky\skoda.jpg" />
+    <Compile Include="obrazky\skoda_fabia.jpg" />
+    <Compile Include="obrazky\suzuki.jpg" />
+    <Compile Include="obrazky\volkswagen.jpg" />
+    <Compile Include="pages\connect.php" />
+    <Compile Include="pages\footer.php" />
+    <Compile Include="pages\header.php" />
+    <Compile Include="pages\home.php" />
+    <Compile Include="pages\kontakt.php" />
+    <Compile Include="pages\otazky.php" />
+    <Compile Include="pages\ponuky.php" />
+    <Compile Include="scripts\my.css" />
+    <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\skuska1\v15" />
+    <Folder Include=".vs\skuska1" />
+    <Folder Include=".vs" />
+    <Folder Include="obrazky" />
+    <Folder Include="pages" />
+    <Folder Include="scripts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obrazky\audi_a6.jpg" />
+    <Content Include="obrazky\audi_q7.jpg" />
+    <Content Include="obrazky\bmw_rad7.jpeg" />
+    <Content Include="obrazky\bmw_x5.jpg" />
+    <Content Include="obrazky\skoda_octavia.jpg" />
+    <Content Include="obrazky\twitter.png" />
+  </ItemGroup>
+</Project>
