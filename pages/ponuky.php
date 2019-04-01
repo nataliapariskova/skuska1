@@ -1,6 +1,6 @@
 <?php
 
-$sql = "SELECT * FROM auto";
+$sql = "SELECT * FROM modely";    
 if($_GET["hladaj"]) $sql = "SELECT * FROM auto WHERE nazov LIKE '%".$_GET["hladaj"]."%'";	
 $result = $conn->query($sql);
 

@@ -37,6 +37,7 @@
     <Compile Include="pages\header.php" />
     <Compile Include="pages\home.php" />
     <Compile Include="pages\kontakt.php" />
+    <Compile Include="pages\obchodne_podmienky.php" />
     <Compile Include="pages\otazky.php" />
     <Compile Include="pages\ponuky.php" />
     <Compile Include="scripts\my.css" />
@@ -55,7 +56,17 @@
     <Content Include="obrazky\audi_q7.jpg" />
     <Content Include="obrazky\bmw_rad7.jpeg" />
     <Content Include="obrazky\bmw_x5.jpg" />
+    <Content Include="obrazky\ford_focus.jpg" />
+    <Content Include="obrazky\ford_kuga.jpg" />
+    <Content Include="obrazky\nissan_juke.jpg" />
+    <Content Include="obrazky\peugeot_3008.jpg" />
+    <Content Include="obrazky\peugeot_5008.jpg" />
+    <Content Include="obrazky\seat_ibiza.jpg" />
+    <Content Include="obrazky\seat_leon.jpg" />
     <Content Include="obrazky\skoda_octavia.jpg" />
+    <Content Include="obrazky\suzuki_vitara.jpg" />
     <Content Include="obrazky\twitter.png" />
+    <Content Include="obrazky\volkswagen_golf.png" />
+    <Content Include="obrazky\volkswagen_passat.jpg" />
   </ItemGroup>
 </Project>

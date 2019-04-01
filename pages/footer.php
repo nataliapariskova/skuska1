@@ -1,19 +1,23 @@
 
     <hr>
-	 <p class="row">
+	<p class="row">
         <p style="text-align: center"> <font color="grey"> © copyright auto-bazár 2019 </font></p>
-        <div class="col-md-3"> <a href="https://www.facebook.com/"> <img src="obrazky/fb.png" alt="logo fb"  width="40" height="40/> </a> </div>
-        <div class="col-md-3"> <a href="https://www.instagram.com/"><img src="obrazky/instagram.png" alt="logo instagram" width="40" height="40/> </a> </div>
-        <div class="col-md-3"> <a href="https://www.twitter.com/"><img src="obrazky/twitter.png" alt="logo twitter" width="40" height="40/> </a> </div>  
-        <div class="col-md-3"> Obchodné podmienky </div>   
-  
+        <div class="col-md-4"> <a href="https://www.facebook.com/"> <img src="obrazky/fb.png" alt="logo fb"  width="40" height="40/> </a> </div>
+        <div class="col-md-4"> <a href="https://www.instagram.com/"><img src="obrazky/instagram.png" alt="logo instagram" width="40" height="40/> </a> </div>
+        <div class="col-md-4"> <a href="https://www.twitter.com/"><img src="obrazky/twitter.png" alt="logo twitter" width="40" height="40/> </a> </div>  
+        <div class="col-md-4"> <a href="../index.php?link=obchodne_podmienky.php">Obchodné podmienky </div>  
+ 
+<!--všade som mala 3 ale aby to vypadalo na stránke preto som dala 4-->
+<!--<p style="text-align: right"> <font color="grey">Obchodné podmienky </font></p>-->
+
        
          
     </p>
-
+   
 </div>
 
-
+   
+  
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>

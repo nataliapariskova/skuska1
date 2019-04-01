@@ -23,7 +23,7 @@ $result = $conn->query($sql);
 	</ul>
 
 
-    <!--<div class="col-md-5" >
+    <!--<div class="col-md-5" > 
                 <form class="form-inline" id="vyhladavanie">
                             <div class="form-group mb-2"></div>
                             <div class="form-group mx-sm-3 mb-2">
