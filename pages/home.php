@@ -1,5 +1,6 @@
 
 <?php
+$conn->query("SET CHARACTER SET utf8");
 
 if($_GET["hladaj"]) $sql = "SELECT * FROM auto WHERE nazov LIKE '%".$_GET["hladaj"]."%'";	//ak obsahuje hľadaný reťazec
 	else $sql = "SELECT * FROM auto";
