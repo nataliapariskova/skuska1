@@ -53,6 +53,7 @@ $result = $conn->query($sql);
 </div>
 <hr>
 
+<div class="container">
 <div class="row">
     <?php 
       //while($row= $result->fetch_assoc())
@@ -75,6 +76,6 @@ $result = $conn->query($sql);
         </div>
     </div>
 
-
 <?php } ?>
+</div>
 </div>

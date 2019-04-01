@@ -1,3 +1,39 @@
+<?php 
+
+
+?> 
+
+    <div class="row">
+        <div class="col-md-4"><img src="obrazky/logo.png" alt="logo stranky" /></div>
+        <div class="col-md-8 display-3" id="nazov_stranky">auto-bazár</div>
+    </div>
+    <div class="row">
+
+    <ul class="nav nav-pills nav-fill col-md-7">
+			<li class="nav-item"><a class="nav-link " href="../index.php?link=home.php">Domov</a></li>
+            <li class="nav-item"><a class="nav-link " href="../index.php?link=ponuky.php">Ponuky</a></li>
+			<li class="nav-item"><a class="nav-link active" href="../index.php?link=kontakt.php">Kontakt</a></li>
+			<li class="nav-item"><a class="nav-link" href="../index.php?link=otazky.php">Časté otázky</a></li>
+			
+	</ul>
+
+ <div class="col-md-4 mt-2">
+			<form action="index.php" method="get">
+			  <div class="form-row">
+				  <div class="col-md-8">
+                  <input type="hidden" name="link" value="ponuky.php">
+					<input type="text" class="form-control" name="hladaj" placeholder="hľadaný text">
+				  </div>
+				  <div class="col-md-4">
+					<button type="submit" class="btn btn-primary">Odoslať</button>
+				  </div>
+			  </div>
+			</form>
+		</div>
+
+    
+</div>
+<hr>
 
 <p> 1. Úvodné ustanovenia
 1.1. Tieto všeobecné obchodné
@@ -7,9 +43,9 @@ ktorej predmetom je predaj
 /ojazdeného/ motorového vozidla
 špecifikovaného v kúpnej zmluve (ďalej
 len „automobil“), uzatvorenej medzi
-spoločnosťou AUTOCENTRUM AAA AUTO
-a.s., IČO: 47 918 101, so sídlom
-Panónska cesta 39, 851 04 Bratislava,
+spoločnosťou AUTO-BAZÁR s.r.o., 
+IČO: 12345678 , so sídlom
+Hlavná 100, 029 01 Námestovo 
 zapísaná v Obchodnom registri
 Okresného súdu Bratislava I, odd. Sa,
 vložka č. 6024/B, ako predávajúcim
