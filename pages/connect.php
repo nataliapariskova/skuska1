@@ -1,13 +1,13 @@
 <?php
 
-$servername = "localhost";  //meno servera ku ktorému sa pripájame- localhost je môj PC
-$username = "root";         // toto všetko je zadané v php my admin ---mysql---user (a tam môžem zmeni heslo, užívate¾a, taktiež aj každému môžem nieèo zmeni napr len èítanie, alebo prepis )
-$password = "";             // heslo do databázy
-$dbname = "auta";           // meno v databáze
+$servername = "localhost";  
+$username = "root";         
+$password = "";             
+$dbname = "auta";           
 
-//vložené z php my admin, azure aby sme sa napojili na databázu v azure
-foreach ($_SERVER as $key => $value) {                            //cyklus, ktoré pole "premenná server" a ber jednu položku za druhou, k¾úè a hodnotu 
-    if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {             // ak nieèo v tej zátvore je splnené (nesplnené)  -teraz to nie je splnené kedže !==0, tým pádom nie je to splnené, tak mi vykoná tie 4 riadky $connectstr
+/
+foreach ($_SERVER as $key => $value) {                            
+    if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {             
         continue;
     }
     
@@ -24,7 +24,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);  //ak je tam nejaká chyba, vypíše mi Connection failed...
+    die("Connection failed: " . $conn->connect_error);  
 }
 //echo "Connected successfully<br>";
 
