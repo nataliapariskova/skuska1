@@ -5,16 +5,7 @@ $sql = "SELECT * FROM modely";
 if($_GET["hladaj"]) $sql = "SELECT * FROM auto WHERE nazov LIKE '%".$_GET["hladaj"]."%'";	
 $result = $conn->query($sql);
 
-//gmail
-//$sql = "SELECT * FROM auto";
-//$sql = "SELECT * FROM auto WHERE nazov='hladaj'";
-//$sql = "SELECT * FROM auto WHERE nazov='id'";
-//$result = $conn->query($sql);
 
-//skusane na konzultacnych hodinach v stredu
-//$nazov=$_GET["hladaj"];
-//$sql = "SELECT * FROM 'auto' WHERE 'nazov'='".$nazov."'";
-//$result = $conn->query($sql);
 
 ?> 
 
@@ -71,7 +62,7 @@ $result = $conn->query($sql);
             <div class="col-md-4">
                 <img src="obrazky/<?php echo $row["obrazok"]; ?>" class="card-img-top" alt="..." width="120" height="120"/>
                 
-                <!--pokus o prepojenie <img src="obrazky/skoda_fabia.jpg >" alt="..." width="120" height="120"/>-->
+                
 
                 
             </div>
