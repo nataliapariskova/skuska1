@@ -35,8 +35,7 @@ $result = $conn->query($sql);
 <hr>
 
 
-<!--zmenším to a zarovnám <div style="text-align: center"> <dt class="col-sm-3">Euismod</dt>
-                                            <dd class="col-sm-9" --> 
+
 
 <div class="shadow-lg p-3 mb-5 bg-white rounded"><h3> Tel. číslo:</h3> <h4 style="text-align:center" > <B> 0910 100 100 </B> </h4></div>
 <div class="shadow-lg p-3 mb-5 bg-white rounded"><h3> IČO:</h3> <h4 style="text-align:center">  <B> 12345678 </B> </h4></div>
